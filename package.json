@@ -1,0 +1,65 @@
+{
+  "name": "clovuer",
+  "version": "0.1.0",
+  "private": true,
+  "author": ["DwiiUnknown#3704", "Riichi_Rusdiana#6815"],
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "i18n:report": "vue-cli-service i18n:report --src './src/**/*.?(js|vue)' --locales './src/locales/**/*.json'",
+    "start": "vue-cli-service serve --open"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "bootswatch": "^4.5.0",
+    "core-js": "^3.6.5",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1",
+    "reflect-metadata": "^0.1.13",
+    "register-service-worker": "^1.7.1",
+    "vue": "^2.6.11",
+    "vue-class-component": "^7.2.3",
+    "vue-i18n": "^8.18.1",
+    "vue-property-decorator": "^8.4.2",
+    "vue-router": "^3.3.2",
+    "vuex": "^3.4.0",
+    "vue-scrollto": "^2.18.0",
+    "vue-fullscreen": "^2.1.6"
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.3.38",
+    "@types/webpack": "^4.41.17",
+    "@typescript-eslint/eslint-plugin": "^3.1.0",
+    "@typescript-eslint/parser": "^3.1.0",
+    "@vue/cli-plugin-babel": "^4.4.1",
+    "@vue/cli-plugin-eslint": "^4.4.1",
+    "@vue/cli-plugin-pwa": "^4.4.1",
+    "@vue/cli-plugin-router": "^4.4.1",
+    "@vue/cli-plugin-typescript": "^4.4.1",
+    "@vue/cli-plugin-vuex": "^4.4.1",
+    "@vue/cli-service": "^4.4.1",
+    "@vue/eslint-config-typescript": "^5.0.2",
+    "eslint": "^7.2.0",
+    "eslint-plugin-vue": "^6.2.2",
+    "lint-staged": "^10.2.9",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^8.0.2",
+    "typescript": "~3.8.3",
+    "vue-cli-plugin-i18n": "^1.0.1",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "gitHooks": {
+    "pre-commit": "lint-staged"
+  },
+  "license": "MIT",
+  "lint-staged": {
+    "*.{js,jsx,vue,ts,tsx}": [
+      "vue-cli-service lint",
+      "git add"
+    ]
+  },
+  "optionalDependencies": {
+    "axios": "^0.19.2"
+  }
+}

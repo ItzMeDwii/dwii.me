@@ -1,0 +1,16 @@
+{
+  "message": {
+    "welcome": "Welcome to Clovuer App!",
+    "helloworld": {
+      "1": "For a guide and recipes on how to configure / customize this project,",
+      "2": "check out the",
+      "3": "clovuer documentation",
+      "4": "and",
+      "5": "vue-cli documentation",
+      "6": ".",
+      "installed": "Installed CLI Plugins",
+      "essential_links": "Essential Links",
+      "ecosystem": "Ecosystem"
+    }
+  }
+}
