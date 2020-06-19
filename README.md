@@ -45,7 +45,6 @@ Clovuer shipped with these libraries to give you the best experience in using Vu
 * Vue-router
 * Vue-cli-service
 * Vue-scrollto
-* Vue-fullscreen
 * [Vue-i18n](https://kazupon.github.io/vue-i18n/)
 * Axios
 * TypeScript
