@@ -54,8 +54,8 @@
   "license": "MIT",
   "lint-staged": {
     "*.{js,jsx,vue,ts,tsx}": [
-      "vue-cli-service lint",
-      "git add ."
+      "git add .",
+      "vue-cli-service lint"
     ]
   },
   "optionalDependencies": {
