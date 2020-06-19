@@ -35,7 +35,11 @@
      * Refer to `router/index.ts` for component that will be displayed
      * over a router.
     -->
-    <router-view></router-view>
+    <div class="center">
+      <div class="container">
+        <router-view></router-view>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -51,6 +55,7 @@
    * You can use `@/` as an equivalent for `./src`
    */
   import LocaleChanger from "@/components/LocaleChanger.vue";
+  import ThemeChanger from "@/components/ThemeChanger.vue";
 
   /**
    * @Component decorator is used to declare a Vue Component
@@ -59,7 +64,8 @@
   @Component({
     name: "App",
     components: {
-      LocaleChanger
+      LocaleChanger,
+      ThemeChanger
     }
   })
   export default class App extends Vue {}
