@@ -14,6 +14,7 @@
       <!--
        * we include LocaleChanger component to change locales directly into the root
       -->
+      
       <LocaleChanger/>
     </div>
     <!--

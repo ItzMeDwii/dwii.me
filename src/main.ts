@@ -13,6 +13,9 @@ import App from './App.vue'
  */
 import './registerServiceWorker'
 
+import 'jquery'
+import 'popper.js'
+
 /**
  * Bootstrap is important! Clovuer shipped with bootstrap out of the box.
  * Don't like bootstrap? Prefer lightweight small [Skeleton](http://getskeleton.com)? Remove the line below.
@@ -22,14 +25,12 @@ import 'bootstrap'
  * You're using Bootstrap? Then you will like Bootswatch.
  * Bootswatch is a theming framework for Bootstrap, enabling a set of theme works as a replacement.
  *
- * `flatly` is the name of the theme. Change the theme's name according to
+ * `litera` is the name of the theme. Change the theme's name according to
  * your theme preference.
  * You can check more [here](https://bootswatch.com/).
  * > Note: Some Clovuer component will not work properly without Bootswatch.
  */
-import 'bootswatch/dist/flatly/bootstrap.min.css'
-import 'jquery'
-import 'popper.js'
+import 'bootswatch/dist/litera/bootstrap.min.css'
 
 /**
  * Lines below enables vue-router and vuex store.

@@ -2,7 +2,10 @@
   "name": "clovuer",
   "version": "0.1.0",
   "private": true,
-  "author": ["DwiiUnknown#3704", "Riichi_Rusdiana#6815"],
+  "author": [
+    "DwiiUnknown#3704",
+    "Riichi_Rusdiana#6815"
+  ],
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
