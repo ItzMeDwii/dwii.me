@@ -1,16 +1,16 @@
 {
     "message": {
-      "welcome": "Welcome to Clovuer App!",
+      "welcome": "Selemat datang di Aplikasi Clovuer!",
       "helloworld": {
-        "1": "For a guide and recipes on how to configure / customize this project,",
-        "2": "check out the",
-        "3": "clovuer documentation",
-        "4": "and",
-        "5": "vue-cli documentation",
+        "1": "Untuk petunjuk dan contoh cara mengatur / mengkustomisasi projek ini,",
+        "2": "cek",
+        "3": "dokumentasi clovuer",
+        "4": "dan",
+        "5": "dokumentasi vue-cli",
         "6": ".",
-        "installed": "Installed CLI Plugins",
-        "essential_links": "Essential Links",
-        "ecosystem": "Ecosystem"
+        "installed": "Plugin CLI Terpasang",
+        "essential_links": "Link-link Penting",
+        "ecosystem": "Ekosistem"
       }
     }
   }
