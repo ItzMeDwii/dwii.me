@@ -20,7 +20,6 @@ npm install
 
 ## Project scripts
 Clovuer utilizes vue-cli-service as a baseline for automated process. Any configuration related to vue-cli-services is acceptable.
-
 As vue-cli-service should be, Clovuer uses webpack along with webpack-dev-server for build and development.
 
 #### Compiles and hot-reloads for development
