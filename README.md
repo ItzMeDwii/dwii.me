@@ -4,7 +4,7 @@
     <img alt="ewe" src="src/assets/typescript-logo.png">
 </p>
  
-# DwiiUnknown Website (dwii.me)
+# DwiiUnknown Website (dwii.me) [![Netlify Status](https://api.netlify.com/api/v1/badges/61de1a93-8941-4e2e-90cc-cc7cd4373f4c/deploy-status)](https://app.netlify.com/sites/dwii/deploys)
 > Powered by [Clovuer](https://github.com/BillyAddlers/clovuer) (An extended Vue).
 
 [Clovuer](https://github.com/BillyAddlers/clovuer) is a set of tools to guide you in making a Website/WebApp using Vue.
