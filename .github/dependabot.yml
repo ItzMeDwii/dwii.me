@@ -1,9 +1,9 @@
 version: 2
 updates:
-- package-ecosystem: npm
-  directory: "/"
-  schedule:
-    interval: daily
-  target-branch: master
-  reviewers:
-  - ItzMeDwii
+  - package-ecosystem: npm
+    directory: "/"
+    schedule:
+      interval: daily
+    target-branch: master
+    reviewers:
+    - ItzMeDwii
