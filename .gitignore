@@ -1,7 +1,7 @@
 .DS_Store
 node_modules
 /dist
-deploy.sh
+
 
 # local env files
 .env.local
@@ -11,6 +11,7 @@ deploy.sh
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
 
 # Editor directories and files
 .idea
@@ -20,7 +21,3 @@ yarn-error.log*
 *.njsproj
 *.sln
 *.sw?
-
-pnpm-lock.yaml
-package-lock.json
-yarn.lock
