@@ -8,16 +8,20 @@ import "./stylesheets/global.scss";
 
 export default class Home extends Vue {
 
-  private render () {
+  private render() {
 
     return <div id="app">
-    <div id="nav">
+      <div id="nav">
+      </div>
+      <div class="parallax" id="top">
+        <div class="flex-center">
+          <div id="main" class="container">
+            <router-view />
+          </div>
+        </div>
+      </div>
     </div>
-    <div id="main" class="container">
-    <router-view/>
-    </div>
-  </div>
 
   }
-  
+
 }

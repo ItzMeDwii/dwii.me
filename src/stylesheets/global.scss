@@ -3,3 +3,41 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.parallax {
+    background-image: url("../assets/dwiipaint.jpg");
+
+    height: 100vh;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer {
+    background: #212121;
+}
+
+.jumbotron {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.btn {
+    background: rgba(0, 0, 0, 0.3)
+}
+
+.list-group-item {
+    color: #ffffff;
+    background: transparent;
+}
+
+code {
+    background-color: #23272A;
+    color: #ffffff;
+    font-size: 0.875em;
+    font-weight: normal;
+    padding: 0.25em 0.5em 0.25em;
+    border-radius: 2px;
+    transition: all 0.2s ease-in-out;
+}
